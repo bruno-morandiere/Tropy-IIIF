@@ -1,0 +1,67 @@
+{
+  "id" : "https://bruno-morandiere.github.io/Tropy-IIIF/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in bruno-morandiere/Tropy-IIIF project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 2428,
+    "id" : "https://bruno-morandiere.github.io/Tropy-IIIF/images/Page_1/canvas/",
+    "label" : {
+      "none" : [ "Page_1" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://bruno-morandiere.github.io/Tropy-IIIF/images/Page_1/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://bruno-morandiere.github.io/Tropy-IIIF/images/Page_1/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 76,
+              "height" : 99
+            }, {
+              "width" : 152,
+              "height" : 198
+            }, {
+              "width" : 304,
+              "height" : 396
+            }, {
+              "width" : 607,
+              "height" : 792
+            }, {
+              "width" : 1214,
+              "height" : 1584
+            }, {
+              "width" : 2428,
+              "height" : 3167
+            } ],
+            "profile" : "level0",
+            "width" : 2428,
+            "id" : "https://bruno-morandiere.github.io/Tropy-IIIF/images/Page_1",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 3167
+          } ],
+          "format" : "image/jpeg",
+          "width" : 2428,
+          "id" : "https://bruno-morandiere.github.io/Tropy-IIIF/images/Page_1/full/max/0/default.jpg",
+          "type" : "Image",
+          "height" : 3167
+        },
+        "target" : "https://bruno-morandiere.github.io/Tropy-IIIF/images/Page_1/canvas/"
+      } ]
+    } ],
+    "height" : 3167
+  } ]
+}
