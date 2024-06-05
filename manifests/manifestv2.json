@@ -25,7 +25,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "https://apitest.nakala.fr/iiif/10.34847/nkl.faabu039/85d87afc228fd6ce51498bfe6719a450f217a672/full/full/0/default.jpg",
+          "@id" : "https://bruno-morandiere.github.io/Tropy-IIIF/images/Page_1",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 3167,
