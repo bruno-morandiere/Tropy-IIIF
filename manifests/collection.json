@@ -1,0 +1,13 @@
+{
+  "id" : "https://bruno-morandiere.github.io/Tropy-IIIF/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in bruno-morandiere/Tropy-IIIF project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://bruno-morandiere.github.io/Tropy-IIIF/manifests/manifestv2.json",
+    "label" : "cahiers de fouille des Rivaux entre 1970 et 1990"
+  } ]
+}
