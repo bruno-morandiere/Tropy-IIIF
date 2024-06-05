@@ -1,0 +1,33 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 76,
+    "height" : 99
+  }, {
+    "width" : 152,
+    "height" : 198
+  }, {
+    "width" : 304,
+    "height" : 396
+  }, {
+    "width" : 607,
+    "height" : 792
+  }, {
+    "width" : 1214,
+    "height" : 1584
+  }, {
+    "width" : 2428,
+    "height" : 3167
+  } ],
+  "profile" : "level0",
+  "width" : 2428,
+  "id" : "https://bruno-morandiere.github.io/Tropy-IIIF/images/Page_1",
+  "type" : "ImageService3",
+  "@context" : "http://iiif.io/api/image/3/context.json",
+  "height" : 3167
+}
