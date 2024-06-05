@@ -25,7 +25,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "https://bruno-morandiere.github.io/Tropy-IIIF/images/Page_1",
+          "@id" : "https://bruno-morandiere.github.io/Tropy-IIIF/images/Page_1/full/max/0/default.jpg",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 3167,
