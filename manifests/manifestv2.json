@@ -11,17 +11,6 @@
     "label" : "Collection",
     "value" : "cahiers de fouille des Rivaux"
   } ],
-  "service" : [ {
-    "@context" : "http://iiif.io/api/search/0/context.json",
-    "@id" : "https://iiif.wellcomecollection.org/search/v0/b18035723",
-    "profile" : "http://iiif.io/api/search/0/search",
-    "label" : "Search within this manifest",
-    "service" : {
-      "@id" : "https://iiif.wellcomecollection.org/search/autocomplete/v1/b18035723",
-      "profile" : "http://iiif.io/api/search/0/autocomplete",
-      "label" : "Autocomplete words in this manifest"
-    }
-  } ],
   "sequences" : [ {
     "@id" : "https://test.nakala.fr/10.34847/nkl.faabu039/sequence/default",
     "@type" : "sc:Sequence",
