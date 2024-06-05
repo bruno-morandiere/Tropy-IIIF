@@ -1,0 +1,59 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@type" : "sc:Manifest",
+  "@id" : "https://bruno-morandiere.github.io/Tropy-IIIF/manifests/manifestv2.json",
+  "label" : "cahiers de fouille des Rivaux entre 1970 et 1990",
+  "attribution" : "Bruno Morandiere",
+  "viewingDirection" : "left-to-right",
+  "viewingHint" : "individuals",
+  "license" : "",
+  "metadata" : [ {
+    "label" : "Collection",
+    "value" : "cahiers de fouille des Rivaux"
+  } ],
+  "service" : [ {
+    "@context" : "http://iiif.io/api/search/0/context.json",
+    "@id" : "https://iiif.wellcomecollection.org/search/v0/b18035723",
+    "profile" : "http://iiif.io/api/search/0/search",
+    "label" : "Search within this manifest",
+    "service" : {
+      "@id" : "https://iiif.wellcomecollection.org/search/autocomplete/v1/b18035723",
+      "profile" : "http://iiif.io/api/search/0/autocomplete",
+      "label" : "Autocomplete words in this manifest"
+    }
+  } ],
+  "sequences" : [ {
+    "@id" : "https://test.nakala.fr/10.34847/nkl.faabu039/sequence/default",
+    "@type" : "sc:Sequence",
+    "label" : "Reproduction intégrale",
+    "canvases" : [ {
+      "@id" : "https://test.nakala.fr/10.34847/nkl.faabu039/canvas/canvas-981357",
+      "@type" : "sc:Canvas",
+      "label" : "Page 1",
+      "height" : 3167,
+      "width" : 2428,
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://apitest.nakala.fr/iiif/10.34847/nkl.faabu039/85d87afc228fd6ce51498bfe6719a450f217a672/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 3167,
+          "width" : 2428,
+          "service" : {
+            "@context" : "https://iiif.io/api/image/3/context.json",
+            "@id" : "https://apitest.nakala.fr/iiif/10.34847/nkl.faabu039/85d87afc228fd6ce51498bfe6719a450f217a672",
+            "profile" : "http://iiif.io/api/image/3/level2.json"
+          }
+        },
+        "on" : "https://test.nakala.fr/10.34847/nkl.faabu039/canvas/canvas-981357"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://apitest.nakala.fr/data/10.34847/nkl.faabu039/3525ecf52adf13b9d7a85a180f9d3786cb33f2ec",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ]
+    } ]
+  } ]
+}
